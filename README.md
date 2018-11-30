@@ -1,26 +1,37 @@
 # Kl
-import pymorphy2 
+### :sparkles: Домашнее задание ~~оп~~ по **компьютерной _лингвистике_** 2018-2019 учебный год:sparkles:
+1. Я
+  1. Не
+  2. Знаю
+  3. Что
+  4. Писать 
+  
+  
+  <dl>
+  <dt>Ох, тут тоже надо что-то написать</dt>
+  <dd>Это красиво выглядит</dd>
+
+  <dt>Нужные смайлики</dt>
+  <dd>1) :eyes:</dd>
+  <dd>2) :sparkles:</dd>
+  <dd>3) :trollface:</dd>
+  <dd>4) :speech_balloon:</dd>
+  <dd>5) :hocho:</dd>
+  <dd>6) :heavy_check_mark:</dd>
+  <dd>7) :wavy_dash:</dd>
+  
+</dl>
 
 
-text = "Мама мыла раму" 
-text_split = text.split( 
-' зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность символов. ') 
 
-File=open("itog.txt","w") 
+|Дз             | Дата          |                    |
+| ------------- |:-------------:| ------------------:|
+| 1             | 01.12.12      | :heavy_check_mark: |
+| 2             | 01.12.12      | :heavy_check_mark: |
+| 3             | 01.12.12      | :heavy_check_mark: |
 
-morph = pymorphy2.MorphAnalyzer() 
 
-for a in text_split: 
-parse = morph.parse(a)[0] 
-File.write("Простой разбор ") 
-File.write(parse) 
-result = parse.normalized 
-File.write("Нормализовано: ") 
-File.write(result) 
-sklon = parse.inflect({"gent"}) 
-File.write("Склонение в родительном: ") 
-File.write(sklon) 
-lex = parse.lexeme 
-File.write("Лексемы: ") 
-File.write(lex) 
-File.write("***")
+
+> Очень сильно изыиняюзь за этот бред :sparkles:
+
+![alt text](https://github.com/LinKav20/Kl/blob/master/6491.jpg)
