@@ -32,6 +32,6 @@
 
 
 
-> Очень сильно изыиняюзь за этот бред :sparkles:
+> Очень сильно извиняюзззззь за этот бред :sparkles:
 
 ![alt text](https://github.com/LinKav20/Kl/blob/master/6491.jpg)
