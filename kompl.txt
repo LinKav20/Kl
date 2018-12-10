@@ -1,7 +1,7 @@
 import pymorphy2
 
 
-text = "Мама мыла раму"
+text = "ГЊГ Г¬Г  Г¬Г»Г«Г  Г°Г Г¬Гі"
 text_split = text.split(" ")
 
 File=open("itog.txt","w")
@@ -10,16 +10,16 @@ morph = pymorphy2.MorphAnalyzer()
 
 for a in text_split:
 	parse = morph.parse(a)[0] 
-        File.write("Простой разбор ")
+        File.write("РџСЂРѕСЃС‚РѕР№ СЂР°Р·Р±РѕСЂ ")
         File.write(parse)
 	result = parse.normalized 
-        File.write("Нормализовано: ")
+        File.write("РќРѕСЂРјР°Р»РёР·РѕРІР°РЅРѕ: ")
         File.write(result)
 	sklon = parse.inflect({"gent"})
-        File.write("Склонение в родительном: ")
+        File.write("РЎРєР»РѕРЅРµРЅРёРµ РІ СЂРѕРґРёС‚РµР»СЊРЅРѕРј: ")
         File.write(sklon)
 	lex = parse.lexeme 
-        File.write("Лексемы: ")
+        File.write("Р›РµРєСЃРµРјС‹: ")
         File.write(lex)
         File.write("***")
 
